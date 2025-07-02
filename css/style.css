@@ -1,0 +1,72 @@
+@font-face {
+	font-family: fragor;
+	src: url(/fonts/Fragor-DemoVersion-Regular.woff) format("woff");
+}
+@font-face {
+	font-family: metro;
+	src: url(/fonts/Metropolitain.woff) format("woff");
+}
+
+@font-face {
+	font-family: 'Gatsby';
+	font-style: normal;
+	font-weight: normal;
+	src: local('GatsbyFLF-Bold'), url('/fonts/GatsbyFLF-Bold.woff') format('woff');
+	}
+
+	@font-face {
+    font-family: 'Broadway BT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Broadway BT'), url('/fonts/broadway.woff') format('woff');
+    }
+	@font-face {
+		font-family: 'Playfair Display';
+		src: url(/fonts/PlayfairDisplay-VariableFont_wght.ttf) format("ttf");
+	}
+	:root {
+		--primary-color: #2C3E50; /* Donkerblauw */
+		--secondary-color: #F39C12; /* Goudgeel */
+		--accent-color: #E74C3C; /* Robijnrood */
+		--text-color: #34495E; /* Donkergrijs */
+		--background-color: #ECF0F1; /* Lichtgrijs */
+	}
+/* :root{
+	--font-family:system-ui;	
+	--background-color: #f5e4c8;
+	--titel-color: #6a0000;
+	--text-color:#1f2524;
+	--link-color: #007bff;
+	--link-hover-color: #0056b3;
+	--button-color: #007bff;
+	--button-hover-color: #0056b3;	
+	--button-text-color: #ffffff;
+	--button-border-color: #0056b3;
+	--header-color:#79A7A2;
+	--head-text-color:#ffffff;
+} */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 16px;
+	scroll-behavior: smooth;
+	color-scheme: dark light;
+}
+body {
+	font-family: var(--font-family);
+	background-color: var(--background-color);
+	color: var(--text-color);
+	line-height: 1.6;
+}
+.title{
+	font-family: 'Broadway BT', sans-serif;
+	font-size: 5rem;
+	color: var(--primary-color);
+	text-align: center;
+	margin-top: 20px;
+}
